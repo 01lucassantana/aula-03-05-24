@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    cadeia senha="abc123"
+    cadeia senhadigitada
+
+    faca{
+      //Limpa
+       escreva("Digite sua senha: ")
+      leia(senhadigitada)
+      se(senha != senhadigitada){
+        escreva("Senha Invalida\n")
+      }
+   } enquanto(senha != senhadigitada)
+
+   escreva("Acesso permitido")
+    
+  }
+}
